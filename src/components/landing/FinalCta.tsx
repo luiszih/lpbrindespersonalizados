@@ -29,7 +29,7 @@ export function FinalCta() {
             contato@elizadesign.com.br
           </a>
         </div>
-        <p className="mt-6 text-sm text-accent-foreground/80">+55 19 99541-1832</p>
+        <p className="mt-6 text-sm text-accent-foreground/80" />
       </div>
     </section>
   );
