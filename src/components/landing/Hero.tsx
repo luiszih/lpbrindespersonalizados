@@ -31,13 +31,13 @@ export function Hero() {
               </a>
               <a
                 href="#produtos"
-                className="inline-flex items-center justify-center rounded-full border border-primary-foreground/40 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
+                className="hidden md:inline-flex items-center justify-center rounded-full border border-primary-foreground/40 px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-foreground/10"
               >
                 Ver produtos
               </a>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative hidden lg:block">
             <div className="aspect-[5/4] w-full rounded-3xl border border-primary-foreground/15 bg-primary-foreground/5 backdrop-blur-sm">
               <div className="flex h-full flex-col items-center justify-center gap-3 text-primary-foreground/70">
                 <Camera className="h-10 w-10" aria-hidden />
