@@ -29,7 +29,7 @@ export function FinalCta() {
             contato@elizadesign.com.br
           </a>
         </div>
-        <p className="mt-6 text-sm text-accent-foreground/80" />
+        <p className="mt-6 text-sm text-accent-foreground/80">{"\n"}</p>
       </div>
     </section>
   );
