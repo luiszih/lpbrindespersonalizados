@@ -1,4 +1,3 @@
-import { Download } from "lucide-react";
 import { SectionHead } from "./SectionHead";
 import butterfly from "@/assets/portfolio-butterfly.png.asset.json";
 import agro from "@/assets/portfolio-agro.png.asset.json";
@@ -47,15 +46,6 @@ export function Portfolio() {
           ))}
         </div>
 
-        <div className="mt-12 flex justify-center">
-          <a
-            href="#orcamento"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:scale-[1.02]"
-          >
-            <Download className="h-4 w-4" aria-hidden />
-            Baixar catálogo completo
-          </a>
-        </div>
       </div>
     </section>
   );
