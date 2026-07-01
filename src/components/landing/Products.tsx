@@ -44,9 +44,12 @@ export function Products() {
         </div>
 
         <div className="mt-12 rounded-3xl bg-accent/60 px-6 py-8 md:py-10">
-          <dl className="grid grid-cols-1 divide-y divide-foreground/10 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          <dl className="grid grid-cols-1 sm:grid-cols-3">
             {stats.map((s) => (
-              <div key={s.v} className="px-6 py-4 text-center sm:py-0">
+              <div
+                key={s.v}
+                className="relative px-6 py-4 text-center sm:py-0 after:absolute after:bottom-0 after:left-1/2 after:h-px after:w-16 after:-translate-x-1/2 after:bg-foreground/10 sm:after:bottom-auto sm:after:left-auto sm:after:right-0 sm:after:top-1/2 sm:after:h-10 sm:after:w-px sm:after:translate-x-0 sm:after:-translate-y-1/2 last:after:hidden"
+              >
                 <dt className="sr-only">{s.l}</dt>
                 <dd className="text-3xl font-extrabold text-primary md:text-4xl">{s.v}</dd>
                 <p className="mt-1 text-sm text-foreground/70">{s.l}</p>
