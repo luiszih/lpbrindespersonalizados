@@ -39,12 +39,14 @@ export function Hero() {
             </div>
           </div>
           <div className="relative hidden lg:block">
-            <div className="aspect-[5/4] w-full rounded-3xl border border-primary-foreground/15 bg-primary-foreground/5 backdrop-blur-sm">
-              <div className="flex h-full flex-col items-center justify-center gap-3 text-primary-foreground/70">
-                <Camera className="h-10 w-10" aria-hidden />
-                <p className="text-sm">Flat lay de brindes metálicos dourados</p>
-              </div>
+            <div className="aspect-[5/4] w-full overflow-hidden rounded-3xl border border-primary-foreground/15 bg-primary-foreground/5 backdrop-blur-sm">
+              <img
+                src={heroImage.url}
+                alt="Modelo segurando chaveiros metálicos personalizados"
+                className="h-full w-full object-cover"
+              />
             </div>
+
           </div>
         </div>
 
