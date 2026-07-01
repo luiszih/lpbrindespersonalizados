@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Brindes Corporativos Personalizados | Eliza Acessórios & Design" },
+      { name: "description", content: "Na Eliza Acessórios & Design, desenvolvemos brindes metálicos sob demanda que fogem do óbvio e garantem um alto valor percebido para as suas ações." },
+      { property: "og:description", content: "Na Eliza Acessórios & Design, desenvolvemos brindes metálicos sob demanda que fogem do óbvio e garantem um alto valor percebido para as suas ações." },
+      { name: "twitter:description", content: "Na Eliza Acessórios & Design, desenvolvemos brindes metálicos sob demanda que fogem do óbvio e garantem um alto valor percebido para as suas ações." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/n6YpxlO3rdOAu7xhOTlM71FpWWs2/social-images/social-1782901335126-Eliza_CapaFacebook.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/n6YpxlO3rdOAu7xhOTlM71FpWWs2/social-images/social-1782901335126-Eliza_CapaFacebook.webp" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
