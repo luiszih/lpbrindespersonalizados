@@ -1,13 +1,17 @@
-import { Camera, Download } from "lucide-react";
+import { Download } from "lucide-react";
 import { SectionHead } from "./SectionHead";
+import butterfly from "@/assets/portfolio-butterfly.png.asset.json";
+import agro from "@/assets/portfolio-agro.png.asset.json";
+import dog from "@/assets/portfolio-dog.jpg.asset.json";
+import wepink from "@/assets/portfolio-wepink.jpg.asset.json";
+import lanyard from "@/assets/portfolio-lanyard.jpg.asset.json";
 
 const tiles = [
-  "Pins corporativos dourados",
-  "Chaveiros personalizados",
-  "Charms com logo aplicado",
-  "Medalhas e condecorações",
-  "Kit brinde premium",
-  "Acessórios licenciados",
+  { src: butterfly.url, caption: "Chaveiro borboleta em esmalte" },
+  { src: agro.url, caption: "Chaveiro oval Agro Cretá" },
+  { src: dog.url, caption: "Chaveiro pet personalizado" },
+  { src: wepink.url, caption: "Pingente metálico Wepink" },
+  { src: lanyard.url, caption: "Cordão e pin Great Place To Work" },
 ];
 
 export function Portfolio() {
@@ -25,15 +29,20 @@ export function Portfolio() {
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {tiles.map((caption) => (
+          {tiles.map((tile) => (
             <figure
-              key={caption}
-              className="aspect-square rounded-3xl border border-border bg-accent/30 p-6"
+              key={tile.caption}
+              className="group relative aspect-square overflow-hidden rounded-3xl border border-border bg-accent/30"
             >
-              <div className="flex h-full flex-col items-center justify-center gap-3 text-primary/70">
-                <Camera className="h-8 w-8" aria-hidden />
-                <figcaption className="text-xs font-medium text-primary">{caption}</figcaption>
-              </div>
+              <img
+                src={tile.src}
+                alt={tile.caption}
+                loading="lazy"
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-4 text-xs font-medium text-white">
+                {tile.caption}
+              </figcaption>
             </figure>
           ))}
         </div>
