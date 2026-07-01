@@ -4,6 +4,7 @@ import agro from "@/assets/portfolio-agro.png.asset.json";
 import dog from "@/assets/portfolio-dog.jpg.asset.json";
 import wepink from "@/assets/portfolio-wepink.jpg.asset.json";
 import lanyard from "@/assets/portfolio-lanyard.jpg.asset.json";
+import wepinkBottle from "@/assets/portfolio-wepink-bottle.jpeg.asset.json";
 
 const tiles = [
   { src: butterfly.url, caption: "Chaveiro borboleta em esmalte" },
@@ -11,6 +12,7 @@ const tiles = [
   { src: dog.url, caption: "Chaveiro pet personalizado" },
   { src: wepink.url, caption: "Pingente metálico Wepink" },
   { src: lanyard.url, caption: "Cordão e pin Great Place To Work" },
+  { src: wepinkBottle.url, caption: "Colar pingente Wepink" },
 ];
 
 export function Portfolio() {
