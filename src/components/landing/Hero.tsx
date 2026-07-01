@@ -1,4 +1,5 @@
-import { Camera, Factory } from "lucide-react";
+import { Factory } from "lucide-react";
+import heroImage from "@/assets/hero-chaveiros.jpeg.asset.json";
 
 const trust = ["30 anos de mercado", "Certificação FAMA", "ABVTEX Ouro", "Fábrica própria"];
 
