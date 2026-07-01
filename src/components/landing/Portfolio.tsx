@@ -1,4 +1,3 @@
-import { Download } from "lucide-react";
 import { SectionHead } from "./SectionHead";
 import butterfly from "@/assets/portfolio-butterfly.png.asset.json";
 import agro from "@/assets/portfolio-agro.png.asset.json";
