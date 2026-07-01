@@ -8,7 +8,7 @@ const items = [
   },
   {
     q: "Quais acabamentos estão disponíveis?",
-    a: "Trabalhamos com banhos em ouro, prata, níquel, cobre envelhecido e cores epóxi, além de relevos, baixo-relevo e detalhes em esmalte sintético ou resina.",
+    a: "Trabalhamos com Banho dourado, níquel, grafite, ouro velha, prata velha. Cada peça passa por rigoroso controle de qualidade para garantir durabilidade e acabamento premium",
   },
   {
     q: "Como funciona o desenvolvimento personalizado?",
