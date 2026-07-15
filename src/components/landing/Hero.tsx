@@ -15,13 +15,13 @@ export function Hero() {
               FÁBRICA PRÓPRIA · DESDE 1995
             </span>
             <h1 className="mt-6 text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
-              O brinde que a sua marca merece —{" "}
-              <span className="font-light text-accent">
-                fabricado com 30 anos de precisão.
+              Acessórios corporativos&nbsp;
+              <span className="block font-light text-accent">
+                Que elevam o valor da sua marca.
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-base text-primary-foreground/80 md:text-lg">
-              Pins, chaveiros e acessórios metálicos personalizados para empresas que não abrem mão da qualidade. A partir de 250 unidades.
+              Materializamos a sua ideia em acessórios metálicos de alto valor percebido, unindo inteligência industrial a um cuidado único no desenvolvimento.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
